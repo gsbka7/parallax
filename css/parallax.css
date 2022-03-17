@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    opacity: 0.8;
+
+}
+
+p{
+    margin: 0;
+}
+
+.bg-full, .bg-half-1, .bg-half-2{
+    background-attachment: fixed;
+    
+}
+
+.bg-full{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/watermelon-1.jpg');
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+
+.bg-full-title, .bg-half-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: rgb(61, 55, 55);
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+
+.bg-text{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(243, 239, 239);
+    text-align: center;
+    padding: 100px 70px;
+    letter-spacing: 3px;
+    font-size: 2vmin;
+    font-weight: 600;
+
+}
+
+.bg-half-1, .bg-half-2{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.bg-half-1{
+    background-image: url(../img/watermelon-2.jpg);
+
+}
+
+
+.bg-half-2{
+    background-image: url(../img/watermelon-3.jpg);
+
+}
+
+.bg-half-text{
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 20vh;
+    padding: 60px 40px;
+    font-size: 2vmin;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
+
+.blocks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.5vmin;
+
+}
+
+@media (max-width: 998px) {
+    .bg-text{
+        padding: 50px 70px;
+
+    }
+    .bg-half-text{
+        padding: 30px 40px;;
+
+    }
+
+}
+
+@media (max-width: 684px) {
+    .bg-full-title, .bg-half-title{
+        font-size: 30px;
+        
+    }
+}
+
+@media (max-width: 550px) {
+    .bg-text{
+        padding: 25px 45px;
+
+    }
+
+    .bg-half-text{
+        padding: 20px 15px;
+
+    }
+    .blocks{
+        font-size: 10px;
+
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .bg-full-title, .bg-half-title{
+        font-size: 25px;
+        
+    }
+}
