@@ -39,6 +39,7 @@ p{
     color: #FFF;
     font-size: 50px;
     font-weight: 600;
+    border-radius: 20px;
     
 }
 
@@ -132,7 +133,7 @@ p{
 
 @media (max-width: 450px) {
     .bg-full-title, .bg-half-title{
-        font-size: 25px;
+        font-size: 20px;
         
     }
 }
